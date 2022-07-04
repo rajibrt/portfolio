@@ -18,12 +18,12 @@ h2 {
 .flexible-container {
     display: flex;
     margin-bottom: 150px;
-
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+
+
 }
 
 .half-width img {
@@ -44,8 +44,9 @@ h2 {
 }
 
 .top-banner {
-    background-image: url(images/top-banner.png);
+    background-image: url(images/top-banner-a-2.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .experiences {
@@ -56,6 +57,7 @@ h2 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
 }
 
 .experience-item {
@@ -74,14 +76,39 @@ h2 {
     background-position: left;
 }
 
+/* From https://css.glass */
 #left-box {
-    border-left: 7px solid rgb(71, 83, 255);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 
+/* From https://css.glass */
 #right-box {
-    border-left: 7px solid tomato;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 footer {
     text-align: center;
+}
+
+/* From https://css.glass */
+#top-left-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 60px;
+    padding: 60px;
 }
