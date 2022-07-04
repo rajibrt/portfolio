@@ -65,10 +65,23 @@ h2 {
     padding-left: 40px;
     border-radius: 10px;
     box-shadow: 10px 10px 30px gray;
+
 }
 
 .experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+#left-box {
+    border-left: 7px solid rgb(71, 83, 255);
+}
+
+#right-box {
+    border-left: 7px solid tomato;
+}
+
+footer {
+    text-align: center;
 }
